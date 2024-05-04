@@ -21,11 +21,17 @@ p{
 h2{
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: 60px;
+    font-size: 70px;
 }
 h1{
     font-family: var(--heading-font);
     font-size: 94px;
+    font-weight: bold;
+}
+
+.paragraph{
+    font-family: var(--heading-font);
+    font-size: 44px;
     font-weight: bold;
 }
 .img-fluid{
@@ -42,16 +48,21 @@ h1{
     background-color: transparent !important;
   }
 
- 
+ .price{
+    text-decoration: underline;
+ }
 .nav-link  {
     color: red;
 }
 @media (max-width: 590px) {
       h1{
-        font-size: 50px;
+        font-size: 40px;
+      }
+      h2,.paragraph{
+        font-size: 30px;
       }
      body{
-        max-width: 90%;
+        max-width: 70%;
      }
       .img-fluid{
         width: 300px;
