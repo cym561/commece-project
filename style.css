@@ -44,25 +44,37 @@ h1{
     width: 300px;
     height: auto;
 }
+
+.cupcake-image{
+    max-width: 300px;
+    height: auto;
+}
 .navbar {
     background-color: transparent !important;
   }
 
  .price{
     text-decoration: underline;
+    font-family: var(--text-font);
  }
 .nav-link  {
     color: red;
 }
 @media (max-width: 590px) {
       h1{
-        font-size: 40px;
+        font-size: 50px;
       }
-      h2,.paragraph{
+      h2{
+        font-size: 37px ;
+      }
+      .paragraph{
         font-size: 30px;
       }
      body{
-        max-width: 70%;
+        max-width: 90%;
+     }
+     .price{
+        font-size: 19px;
      }
       .img-fluid{
         width: 300px;
