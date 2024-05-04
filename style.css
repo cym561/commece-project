@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(235, 234, 234);
+}
+
+
+
+.navbar {
+    background-color: transparent !important;
+  }
+
+.nav-link  {
+    color: red;
+}
