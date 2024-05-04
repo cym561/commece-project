@@ -3,12 +3,14 @@
     --heading-font: 'Poppins',serif;
     --text-font: 'Playfair Display',sans serif;
 }
+
+
 .container{
     background-color: white;
 }
 
 body {
-    border: 1px solid rgb(51, 49, 49);
+   
     max-width: 75%;
     min-height: auto;
     align-items: center;
